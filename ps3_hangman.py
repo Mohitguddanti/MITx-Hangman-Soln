@@ -132,6 +132,7 @@ def hangman(secretWord):
             print("-------------------------------------------\n")
         else:
             print("Oops ! That letter is not in my word.\n")
+            print(getGuessedWord(secretWord, lettersGuessed)+"\n")
             print("-------------------------------------------\n")
             chance = chance - 1
                 
